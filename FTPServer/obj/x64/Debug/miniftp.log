@@ -1,0 +1,247 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.86.3”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  ftpproto.c
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning : backslash and newline separated by space
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning :  #define ERR_EXIT(msg)\
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(136,13): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(136,13): warning :    int ret = recv(sess->ctrl_fd, sess->cmdline, MAX_COMMOND_LINE_SIZE, 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(136,13): warning :              ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(204,2): warning : implicit declaration of function ‘setegid’; did you mean ‘setgid’? [-Wimplicit-function-declaration]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(204,2): warning :   setegid(pwd->pw_gid); //�޸��û�gid��uid
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(204,2): warning :   ^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(204,2): warning :   setgid
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(205,2): warning : implicit declaration of function ‘seteuid’; did you mean ‘setuid’? [-Wimplicit-function-declaration]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(205,2): warning :   seteuid(pwd->pw_uid);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(205,2): warning :   ^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(205,2): warning :   setuid
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(275,9): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(275,9): warning :   p[0] = v[4];
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(275,9): warning :          ^
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(276,9): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(276,9): warning :   p[1] = v[5];
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(276,9): warning :          ^
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(280,9): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(280,9): warning :   p[0] = v[0];
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(280,9): warning :          ^
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(281,9): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(281,9): warning :   p[1] = v[1];
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(281,9): warning :          ^
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(282,9): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(282,9): warning :   p[2] = v[2];
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(282,9): warning :          ^
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(283,9): warning : conversion to ‘unsigned char’ from ‘unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(283,9): warning :   p[3] = v[3];
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(283,9): warning :          ^
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(296,41): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(296,41): warning :   priv_sock_recv_buf(sess->child_fd, ip, len);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(296,41): warning :                                          ^~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(347,37): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(347,37): warning :   priv_sock_send_int(sess->child_fd, strlen(ip));
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(347,37): warning :                                      ^~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(348,41): warning : conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(348,41): warning :   priv_sock_send_buf(sess->child_fd, ip, strlen(ip));
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(348,41): warning :                                          ^~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(430,12): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(430,12): warning :    offset = sprintf(buf, "%s", perms);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(430,12): warning :             ^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(432,10): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(432,10): warning :    offset += sprintf(buf+offset, "%3d %-8d %-8d %8lld ",
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(432,10): warning :           ^~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(436,10): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(436,10): warning :    offset += sprintf(buf+offset, "%s ", pdate);  //����ʱ��
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(436,10): warning :           ^~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(528,21): warning : conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(528,21): warning :   unsigned int len = strlen(sess->arg);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(528,21): warning :                      ^~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(568,58): warning : conversion to ‘double’ from ‘long unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(568,58): warning :   unsigned long cur_rate = (unsigned long)(bytes_transfer / pass_time);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(568,58): warning :                                                           ^
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(579,16): warning : conversion to ‘double’ from ‘long unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(579,16): warning :    rate_ratio = cur_rate / tunable_upload_max_rate;
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(579,16): warning :                 ^~~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(589,16): warning : conversion to ‘double’ from ‘long unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(589,16): warning :    rate_ratio = cur_rate / tunable_download_max_rate;
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(589,16): warning :                 ^~~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(627,35): warning : conversion to ‘long long unsigned int’ from ‘__off_t {aka long int}’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(627,35): warning :   unsigned long long  total_size = sbuf.st_size;
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(627,35): warning :                                    ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(638,17): warning : conversion to ‘__off_t {aka long int}’ from ‘long long unsigned int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(638,17): warning :    if (lseek(fd, offset, SEEK_SET) < 0) //����ƫ����ʧ��
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(638,17): warning :                  ^~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(654,18): warning : conversion to ‘int’ from ‘long long unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(655,29): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(655,29): warning :      int ret = read(fd, buf, read_count);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(655,29): warning :                              ^~~~~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(655,15): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(655,15): warning :      int ret = read(fd, buf, read_count);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(655,15): warning :                ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(672,22): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(672,22): warning :      limit_rate(sess, ret, 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(672,22): warning :                       ^~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(674,30): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(674,30): warning :      send(sess->data_fd, buf, ret, 0); //�ӷ������������ݵ��ͻ���
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(674,30): warning :                               ^~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(675,16): warning : conversion to ‘long long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(675,16): warning :      total_size -= read_count;
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(675,16): warning :                 ^~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(709,16): warning : conversion to ‘__off_t {aka long int}’ from ‘long long unsigned int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(709,16): warning :   if (lseek(fd, offset, SEEK_SET) < 0)
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(709,16): warning :                 ^~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(724,13): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(724,13): warning :    int ret = recv(sess->data_fd, buf, MAX_BUFFER_SIZE, 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(724,13): warning :              ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(740,20): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(740,20): warning :    limit_rate(sess, ret, 1); //1��ʾ�ϴ�
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(740,20): warning :                     ^~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(742,18): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(742,18): warning :    write(fd, buf, ret);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\ftpproto.c(742,18): warning :                   ^~~
+  hash.c
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning : backslash and newline separated by space
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning :  #define ERR_EXIT(msg)\
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\hash.c(29,13): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\hash.c(29,13): warning :   int size = buckets * sizeof(hash_node_t*);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\hash.c(29,13): warning :              ^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\hash.c(30,38): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\hash.c(30,38): warning :   hash->nodes = (hash_node_t**)malloc(size);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\hash.c(30,38): warning :                                       ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\hash.c(31,25): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\hash.c(31,25): warning :   memset(hash->nodes, 0, size);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\hash.c(31,25): warning :                          ^~~~
+  miniftp.c
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning : backslash and newline separated by space
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning :  #define ERR_EXIT(msg)\
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\miniftp.c(96,3): warning : negative integer implicitly converted to unsigned type [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\miniftp.c(96,3): warning :    -1, -1, "", "", "",
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\miniftp.c(96,3): warning :    ^
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\miniftp.c(122,52): warning : conversion to ‘short unsigned int’ from ‘unsigned int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\miniftp.c(122,52): warning :   int listenfd = tcp_server(tunable_listen_address, tunable_listen_port);//���������׽���
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\miniftp.c(122,52): warning :                                                     ^~~~~~~~~~~~~~~~~~~
+  parseconf.c
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning : backslash and newline separated by space
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning :  #define ERR_EXIT(msg)\
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(97,21): warning : implicit declaration of function ‘strdup’; did you mean ‘strcmp’? [-Wimplicit-function-declaration]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(97,21): warning :     *p_cur_setting = strdup(value);//��valuek������p_cur_setting�У�strdup���Զ��ڵײ�malloc�ռ�
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(97,21): warning :                      ^~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(97,21): warning :                      strcmp
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(97,19): warning : assignment makes pointer from integer without a cast [-Wint-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(97,19): warning :     *p_cur_setting = strdup(value);//��valuek������p_cur_setting�У�strdup���Զ��ڵײ�malloc�ռ�
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(97,19): warning :                    ^
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(129,21): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(129,21): warning :     *p_cur_setting = atoi(value);//�����������Ϊһ��str
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\parseconf.c(129,21): warning :                      ^~~~
+  privparent.c
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning : backslash and newline separated by space
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning :  #define ERR_EXIT(msg)\
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(15,9): warning : implicit declaration of function ‘syscall’; did you mean ‘strcoll’? [-Wimplicit-function-declaration]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(15,9): warning :   return syscall(__NR_capset, hdrp, datap);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(15,9): warning :          ^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(15,9): warning :          strcoll
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(23,6): warning : implicit declaration of function ‘setegid’; did you mean ‘setgid’? [-Wimplicit-function-declaration]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(23,6): warning :   if (setegid(pwd->pw_gid) < 0)  //����Ⱥ��gid      0�ɹ�   -1ʧ��
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(23,6): warning :       ^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(23,6): warning :       setgid
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(25,6): warning : implicit declaration of function ‘seteuid’; did you mean ‘setuid’? [-Wimplicit-function-declaration]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(25,6): warning :   if (seteuid(pwd->pw_uid) < 0)  //����uid        0�ɹ�   -1ʧ��
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(25,6): warning :       ^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(25,6): warning :       setuid
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(79,42): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(79,42): warning :   priv_sock_recv_buf(sess->parent_fd, ip, len);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(79,42): warning :                                           ^~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(116,2): warning : implicit declaration of function ‘getlocalip’; did you mean ‘getlogin’? [-Wimplicit-function-declaration]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(116,2): warning :   getlocalip(ip);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(116,2): warning :   ^~~~~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(116,2): warning :   getlogin
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(134,38): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(134,38): warning :   priv_sock_send_int(sess->parent_fd, strlen(ip));
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(134,38): warning :                                       ^~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(135,42): warning : conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(135,42): warning :   priv_sock_send_buf(sess->parent_fd, ip, strlen(ip));
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privparent.c(135,42): warning :                                           ^~~~~~
+  privsock.c
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning : backslash and newline separated by space
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning :  #define ERR_EXIT(msg)\
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(49,12): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(49,12): warning :   int ret = send(fd, &cmd, sizeof(cmd), 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(49,12): warning :             ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(59,12): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(59,12): warning :   int ret = recv(fd, &cmd, sizeof(cmd), 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(59,12): warning :             ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(74,12): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(74,12): warning :   int ret = send(fd, &res, sizeof(res), 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(74,12): warning :             ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(82,12): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(82,12): warning :   int ret = recv(fd, &res, sizeof(res), 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(82,12): warning :             ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(95,12): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(95,12): warning :   int ret = send(fd, &the_int, sizeof(the_int), 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(95,12): warning :             ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(103,12): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(103,12): warning :   int ret = recv(fd, &the_int, sizeof(the_int), 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(103,12): warning :             ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(116,25): warning : conversion to ‘int’ from ‘unsigned int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(116,25): warning :   priv_sock_send_int(fd, len); //�ȷ����ַ�������
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(116,25): warning :                          ^~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(117,12): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(117,12): warning :   int ret = send(fd, buf, len, 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(117,12): warning :             ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(128,12): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(128,12): warning :   int ret = recv(fd, buf, len, 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\privsock.c(128,12): warning :             ^~~~
+  session.c
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning : backslash and newline separated by space
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning :  #define ERR_EXIT(msg)\
+  str.c
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning : backslash and newline separated by space
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning :  #define ERR_EXIT(msg)\
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\str.c(17,28): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘long int’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\str.c(17,28): warning :          strncpy(left, str, pos-str);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\str.c(17,28): warning :                             ^~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\str.c(28,21): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\str.c(28,21): warning :              *str -= 32;
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\str.c(28,21): warning :                      ^~
+  sysutil.c
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning : backslash and newline separated by space
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\common.h(41,22): warning :  #define ERR_EXIT(msg)\
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(7,6): warning : implicit declaration of function ‘gethostname’; did you mean ‘gethostbyname’? [-Wimplicit-function-declaration]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(7,6): warning :   if (gethostname(host, MAX_HOST_NAME_SIZE) < 0)
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(7,6): warning :       ^~~~~~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(7,6): warning :       gethostbyname
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(14,44): error : ‘struct hostent’ has no member named ‘h_addr’
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(14,44): error :   strcpy(ip, inet_ntoa(*(struct in_addr*)pht->h_addr));
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(14,44): error :                                             ^~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(53,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(53,27): warning :   address.sin_port = htons(port);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(53,27): warning :                            ^~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(73,16): error : ‘S_IFMT’ undeclared (first use in this function); did you mean ‘__S_IFMT’?
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(73,16): error :   switch(mode & S_IFMT)
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(73,16): error :                 ^~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(73,16): error :                 __S_IFMT
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(73,16): message : each undeclared identifier is reported only once for each function it appears in
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(75,7): error : ‘S_IFREG’ undeclared (first use in this function); did you mean ‘S_ISREG’?
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(78,7): error : ‘S_IFDIR’ undeclared (first use in this function); did you mean ‘S_ISDIR’?
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(81,7): error : ‘S_IFCHR’ undeclared (first use in this function); did you mean ‘S_ISCHR’?
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(84,7): error : ‘S_IFIFO’ undeclared (first use in this function); did you mean ‘S_ISFIFO’?
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(87,7): error : ‘S_IFBLK’ undeclared (first use in this function); did you mean ‘S_ISBLK’?
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(90,7): error : ‘S_IFLNK’ undeclared (first use in this function); did you mean ‘S_ISLNK’?
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(155,8): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(155,8): warning :   ret = sendmsg(sock_fd, &msg, 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(155,8): warning :         ^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(182,8): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(182,8): warning :   ret = recvmsg(sock_fd, &msg, 0);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(182,8): warning :         ^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(206,19): warning : conversion to ‘long long unsigned int’ from ‘__time_t {aka long int}’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(206,19): warning :   return s_cur_time.tv_sec;
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(206,19): warning :          ~~~~~~~~~~^~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(210,19): warning : conversion to ‘long long unsigned int’ from ‘__suseconds_t {aka long int}’ may change the sign of the result [-Wsign-conversion]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(210,19): warning :   return s_cur_time.tv_usec;
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(210,19): warning :          ~~~~~~~~~~^~~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(225,9): warning : implicit declaration of function ‘nanosleep’; did you mean ‘nano_sleep’? [-Wimplicit-function-declaration]
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(225,9): warning :    ret = nanosleep(&ts, &ts);
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(225,9): warning :          ^~~~~~~~~
+F:\a_git仓库管理\cpp_code\miniftp_vs\miniftp\sysutil.c(225,9): warning :          nano_sleep
+  tunable.c
